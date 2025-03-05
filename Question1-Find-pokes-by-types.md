@@ -10,6 +10,7 @@ console.log("Pokes", pokes);
 const type = "grass";
 const answer1 = []; // TODO
 
+```
 // check for grass
 for (let k = 0; k < pokes.length; k++) {
   if (pokes[k].types.includes(type)) {
@@ -17,11 +18,14 @@ for (let k = 0; k < pokes.length; k++) {
   }
  
 };
+```
 
 // Problem 2: Filter by types (AND / OR)
 // - Populate `answer2Or` with Pokemon names that satisfy AT LEAST ONE of the given types
 // - Populate `answer2And` with Pokemon names that satisfy ALL of the given types
 // (Note that the length of the given `types` can be 1-99. (not always 1-2))
+
+```
 const types = ["bug", "poison"];
 const answer2Or = []; // TODO
 const answer2And = []; // TODO
@@ -70,7 +74,7 @@ function getPokes() {
   return data;
 }
 
-
+```
 // ---------------------------------
 // Console
 
